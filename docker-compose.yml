@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  api-service:
+    image: local/super-trouper-api:latest
+    build: src/SuperTrouperApi/
+    ports: 5000:80
+    volume: /home/rafpie/Desktop/github/async-performance-benchmark/src/SuperTrouperApi/data/:/app/data/

@@ -13,7 +13,7 @@ namespace SuperTrouperApi.Controllers
     [Route("api/[controller]")]
     public class ServicesController : Controller
     {
-        private const string FILE = "/app/data/bigfile.zip";
+        private const string FILE = "./data/bigfile.zip";
 
         // GET api/values
         [HttpGet]
